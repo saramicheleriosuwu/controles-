@@ -12,4 +12,10 @@ app.use ( require('/routes /index.routes')
 app.listen (3000, ()=>{
      console.log('servidores a la espera de conexiones')
      })
-     
+
+
+     cons controller ={}
+
+     controller.index =(req,res)=>{ 
+     res.send('La conexión ha sido correcta desde índex.routes')
+     )}
